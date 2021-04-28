@@ -1,0 +1,20 @@
+Package: eqtlpower
+Type: Package
+Title: Statistical Power Estimation for eQTL Studies
+Version: 1.0.0
+Author: Sara Ershadi
+Maintainer: Sara Ershadi <sers002@aucklanduni.ac.nz>
+Description: Estimation of statistical power for eQTL studies using coefficient 
+    simulation using a multivariate normal distribution or analytic calculation 
+    based on eQTL effect size and allele frequency.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends:
+  R (>= 3.5.0),
+  data.table
+Imports:
+  Matrix.utils,
+  mvtnorm,
+  ggplot2
+RoxygenNote: 7.1.1
